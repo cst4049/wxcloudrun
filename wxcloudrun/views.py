@@ -11,6 +11,7 @@ def index():
     """
     :return: 返回index页面
     """
+    return 'hello world'
     return render_template('index.html')
 
 
